@@ -584,5 +584,55 @@ const LAYOUT_QUESTIONS = [
     ],
     correct: [1],
     sourceImage: "assets/image386.png"
+  },
+  {
+    id: "layout-128",
+    kind: "text",
+    prompt: "Accounts Discovery allows secure connections to domain controllers.",
+    options: ["True", "False"],
+    correct: [1],
+    sourceImage: "assets/image128.png"
+  },
+  {
+    id: "layout-131",
+    kind: "text",
+    prompt: "What are the functions of the Remote Control Agent service? (Choose three.)",
+    options: [
+      "Allows remote monitoring of the Vault",
+      "Sends SNMP traps from the Vault",
+      "Maintains audit data",
+      "Allows CyberArk services to be managed (start/stop/status) remotely"
+    ],
+    correct: [1, 2, 4],
+    sourceImage: "assets/image131.png"
+  },
+  {
+    id: "layout-173",
+    kind: "text",
+    prompt: "You are installing PSM for SSH with AD-Bridge in CyberArkSSHD mode for your customer. What do you need to install? (Choose two.)",
+    options: ["libssh", "CARKpsmp-mfra", "CARKpsmp", "CARKpsmp-AD Bridge"],
+    correct: [1, 3],
+    sourceImage: "assets/image359.png"
+  },
+  {
+    id: "layout-209",
+    kind: "text",
+    prompt: "You are creating a Dual Control workflow for a team's safe. Which safe permissions must you grant to the Approvers group?",
+    options: [
+      "Retrieve accounts, Authorize account request",
+      "List accounts, Authorize account request",
+      "List accounts, Unlock accounts",
+      "Retrieve accounts, Access Safe without confirmation"
+    ],
+    correct: [3],
+    sourceImage: "assets/image438.png"
+  },
+  {
+    id: "layout-210",
+    kind: "text",
+    prompt: "Which usage can be added as a service account platform?",
+    options: ["Loosely Connected Devices", "Kerberos Tokens", "IIS Application Pools", "PowerShell Libraries"],
+    correct: [2],
+    sourceImage: "assets/image439.png"
   }
 ];
