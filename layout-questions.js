@@ -312,5 +312,277 @@ const LAYOUT_QUESTIONS = [
     ],
     correct: [1],
     sourceImage: "assets/image413.png"
+  },
+  {
+    id: "layout-150",
+    kind: "matching",
+    prompt: "Match each PTA detection to the sensors shown in the source answer mapping.",
+    leftItems: [
+      "Unmanaged privileged account",
+      "Anomalous access to multiple machines",
+      "Suspicious activities detected in a privileged session",
+      "Suspected credentials theft"
+    ],
+    rightOptions: [
+      "Logs, Vault, AD (optional), AWS (optional), Azure (optional)",
+      "Network Sensor, PTA Windows Agent",
+      "Vault",
+      "Logs, Vault, AWS (optional), Azure (optional)"
+    ],
+    correct: [1, 2, 3, 4],
+    sourceImage: "assets/image330.png",
+    answerSource: "The completed mapping shown in the source image."
+  },
+  {
+    id: "layout-156",
+    kind: "text",
+    prompt: "Which Automatic Remediation is configurable for a PTA detection of a Suspected Credential Theft?",
+    options: ["Add to Pending", "Rotate Credentials", "Reconcile Credentials", "Disable Account"],
+    correct: [2],
+    sourceImage: "assets/image342.png"
+  },
+  {
+    id: "layout-158",
+    kind: "text",
+    prompt: "Which command configures email alerts within PTA if settings need to be changed post install?",
+    options: [
+      "/opt/tomcat/utility/emailConfiguration.sh",
+      "/opt/PTA/emailConfiguration.sh",
+      "/opt/PTA/utility/emailConfig.sh",
+      "/opt/tomcat/utility/emailSetup.sh"
+    ],
+    correct: [1],
+    sourceImage: "assets/image344.png"
+  },
+  {
+    id: "layout-159",
+    kind: "text",
+    prompt: "Which PTA sensors are required to detect suspected credential theft? (Choose two.)",
+    options: ["Logs", "Vault Logs", "PSM Logs", "CPM Logs", "EPM"],
+    correct: [1, 2],
+    sourceImage: "assets/image345.png"
+  },
+  {
+    id: "layout-160",
+    kind: "text",
+    prompt: "Which file must be edited on the Vault to configure it to send data to PTA?",
+    options: ["dbparm.ini", "PARAgent.ini", "my.ini", "padr.ini"],
+    correct: [1],
+    sourceImage: "assets/image346.png"
+  },
+  {
+    id: "layout-161",
+    kind: "text",
+    prompt: "If PTA is integrated with a supported SIEM solution, which detection becomes available?",
+    options: ["Unmanaged privileged account", "Privileged access to the Vault during irregular days", "riskySPN", "Exposed credentials"],
+    correct: [1],
+    sourceImage: "assets/image347.png"
+  },
+  {
+    id: "layout-163",
+    kind: "text",
+    prompt: "Which Automatic Remediation is configurable for a PTA detection of a Suspected Credential Theft?",
+    options: ["Add to Pending", "Rotate Credentials", "Reconcile Credentials", "Disable Account"],
+    correct: [2],
+    sourceImage: "assets/image349.png"
+  },
+  {
+    id: "layout-165",
+    kind: "text",
+    prompt: "You need to move a platform from using PMTerminal to using Terminal Plugin Controller (TPC). What must you do?",
+    options: [
+      "In PVWA, edit the platform and set the ExeName parameter under Automatic Password Management > CPM Plug-in to CyberArk TPC.exe.",
+      "Edit the platform's ini file in the PasswordManager_Shared safe, add UseTPC = True, remove PMTerminal lines, and restart CPM.",
+      "Open the platform process file and add use TPC=yes under the States section.",
+      "Import a new platform version that supports TPC over the existing platform."
+    ],
+    correct: [1],
+    sourceImage: "assets/image351.png"
+  },
+  {
+    id: "layout-166",
+    kind: "text",
+    prompt: "What is the default username for the PSM for SSH maintenance user?",
+    options: ["proxymng", "psmpmaintenance", "psmpmaintenanceuser", "psmpmnguser"],
+    correct: [1],
+    sourceImage: "assets/image352.png"
+  },
+  {
+    id: "layout-167",
+    kind: "text",
+    prompt: "You need to limit the Windows_Servers platform to the WindowsDC1 and WindowsDC2 safes. What is the correct way?",
+    options: [
+      "Edit the Windows_Servers platform, select Automatic Password Management > General, and set AllowedSafes to (WindowsDC1)|(WindowsDC2).",
+      "Edit the Windows_Servers platform, select Automatic Password Management > Options, and set AllowedSafes to (Win*).",
+      "Edit both safes and add Windows_Servers to their AllowedPlatforms.",
+      "Edit the WindowsServersAllowedSafes file-server category and specify WindowsDC1|WindowsDC2."
+    ],
+    correct: [1],
+    sourceImage: "assets/image353.png"
+  },
+  {
+    id: "layout-170",
+    kind: "text",
+    prompt: "Which parameter must be provided when registering a primary Vault in Azure, but not in Amazon Web Services?",
+    options: ["/RecPub", "/AdminPass", "/MasterPass", "/RDPGateway"],
+    correct: [4],
+    sourceImage: "assets/image356.png"
+  },
+  {
+    id: "layout-171",
+    kind: "text",
+    prompt: "Which browser is supported for PSM Web Connectors developed using the CyberArk Plugin Generator Utility (PGUP)?",
+    options: ["Internet Explorer", "Google Chrome", "Microsoft Edge", "Firefox"],
+    correct: [2],
+    sourceImage: "assets/image357.png"
+  },
+  {
+    id: "layout-172",
+    kind: "text",
+    prompt: "Which step is required to register a Vault manually in Amazon Web Services using CAVaultManager?",
+    options: [
+      "Specify Amazon as the cloud vendor using the CloudVendor flag.",
+      "After running the postinstall utility, restart the PrivateArk Server service.",
+      "Specify the cloud region using the /CloudRegion flag.",
+      "Specify whether the Vault is distributed or stand alone."
+    ],
+    correct: [3],
+    sourceImage: "assets/image358.png"
+  },
+  {
+    id: "layout-174",
+    kind: "text",
+    prompt: "Which Vault authorizations will your CyberArk user need to install the CPM?",
+    options: [
+      "Add Safes; Add/Update Users; Manage Directory Mapping",
+      "Add Safes; Add/Update Users; Reset Users' Passwords; Activate Users; Manage Server File Categories",
+      "Manage Directory Mapping; Backup All Safes; Restore All Safes",
+      "Audit Users; Activate Users; Add Network Areas; Manage Directory Mapping"
+    ],
+    correct: [2],
+    sourceImage: "assets/image360.png"
+  },
+  {
+    id: "layout-176",
+    kind: "text",
+    prompt: "Which option in the PrivateArk client is used to update users' Vault group memberships?",
+    options: ["Update > General tab", "Update > Authorizations tab", "Update > Member Of tab", "Update > Group tab"],
+    correct: [1],
+    sourceImage: "assets/image365.png"
+  },
+  {
+    id: "layout-177",
+    kind: "text",
+    prompt: "Your customer wants to store the Safes Data in Drive D instead of Drive C. Which file should you edit?",
+    options: ["TSparm.ini", "Vault.ini", "DBparm.ini", "user.ini"],
+    correct: [1],
+    sourceImage: "assets/image366.png"
+  },
+  {
+    id: "layout-178",
+    kind: "text",
+    prompt: "Which item is an option for PSM recording customization?",
+    options: [
+      "Windows events text recorder with automatic playback",
+      "Windows events text recorder and universal keystrokes recording simultaneously",
+      "Universal keystrokes text recorder with Windows events text recorder disabled",
+      "Custom audio recording for Windows events"
+    ],
+    correct: [2],
+    sourceImage: "assets/image367.png"
+  },
+  {
+    id: "layout-180",
+    kind: "text",
+    prompt: "A new domain controller has been added. Which locations must you update so the CyberArk infrastructure can use it for authentication?",
+    options: [
+      "Vault hosts file and the PVWA LDAP Integration > Directories > Hosts setting",
+      "Vault hosts file and PVWA hosts file",
+      "PrivateArk Client > Tools > Administrative Tools > Directory Mapping",
+      "Vault and PVWA certificate stores"
+    ],
+    correct: [3],
+    sourceImage: "assets/image370.png"
+  },
+  {
+    id: "layout-181",
+    kind: "text",
+    prompt: "Where do you update the Audit Users Vault permission for all auditors?",
+    options: [
+      "PrivateArk Client > Tools > Administrative Tools > Directory Mapping > Vault Authorizations",
+      "PrivateArk Client > Tools > Administrative Tools > Users and Groups > Auditors > Authorizations tab",
+      "PVWA User Provisioning > LDAP Integration > Vault Auditors Mapping > Vault Authorizations",
+      "PVWA > Administration > Configuration Options > LDAP Integration > Vault Auditors Mapping > Vault Authorizations"
+    ],
+    correct: [2],
+    sourceImage: "assets/image371.png"
+  },
+  {
+    id: "layout-182",
+    kind: "text",
+    prompt: "A recording has no Fast Forward option, only command skipping, and cannot be downloaded. What could be the cause?",
+    options: [
+      "The recording is of a PSM for SSH session.",
+      "The browser is out of date and needs an update.",
+      "You do not have View Audit permission on the safe.",
+      "The platform recorder settings need screen capture every 10000 ms or less."
+    ],
+    correct: [1],
+    sourceImage: "assets/image372.png"
+  },
+  {
+    id: "layout-183",
+    kind: "text",
+    prompt: "You are creating a new REST API user that uses CyberArk Authentication. What is a correct provisioning process?",
+    options: [
+      "PrivateArk Client > Tools > Administrative Tools > Users and Groups > New > User",
+      "PrivateArk Client > Tools > Administrative Tools > Directory Mapping > Add",
+      "PVWA > User Provisioning > LDAP Integration > Add Mapping",
+      "PVWA > User Provisioning > Users and Groups > New > User"
+    ],
+    correct: [1],
+    sourceImage: "assets/image373.png"
+  },
+  {
+    id: "layout-184",
+    kind: "text",
+    prompt: "The CPM cannot log in directly with UNIX root and must use a secondary account. How should this be configured for least privilege?",
+    options: [
+      "Configure each CPM to use the correct logon account.",
+      "Configure each CPM to use the correct reconcile account.",
+      "Configure the UNIX platform to use the correct logon account.",
+      "Configure the UNIX platform to use the correct reconcile account."
+    ],
+    correct: [3],
+    sourceImage: "assets/image374.png"
+  },
+  {
+    id: "layout-190",
+    kind: "text",
+    prompt: "Which Automatic Remediation is configurable for a PTA detection of a Suspected Credential Theft?",
+    options: ["Add to Pending", "Rotate Credentials", "Reconcile Credentials", "Disable Account"],
+    correct: [2],
+    sourceImage: "assets/image382.png"
+  },
+  {
+    id: "layout-192",
+    kind: "text",
+    prompt: "Which onboarding method would you use to integrate CyberArk with your accounts provisioning process?",
+    options: ["Accounts Discovery", "Auto Detection", "Onboarding REST API functions", "PTA Rules"],
+    correct: [2],
+    sourceImage: "assets/image385.png"
+  },
+  {
+    id: "layout-193",
+    kind: "text",
+    prompt: "You need to limit the Windows_Servers platform to the WindowsDC1 and WindowsDC2 safes. What is the correct way?",
+    options: [
+      "Edit the Windows_Servers platform, select Automatic Password Management > General, and set AllowedSafes to (WindowsDC1)|(WindowsDC2).",
+      "Edit the Windows_Servers platform, select Automatic Password Management > Options, and set AllowedSafes to (Win*).",
+      "Edit both safes and add Windows_Servers to their AllowedPlatforms.",
+      "Edit the WindowsServersAllowedSafes file-server category and specify WindowsDC1|WindowsDC2."
+    ],
+    correct: [1],
+    sourceImage: "assets/image386.png"
   }
 ];
