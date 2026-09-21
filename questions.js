@@ -103,7 +103,7 @@ const QUESTION_POOL = [
   {
     "id": "text-8",
     "kind": "text",
-    "prompt": "Which file should you edit?",
+    "prompt": "Your customer wants to store the Safes Data on Vault Drive D instead of Drive C. Which file should you edit?",
     "options": [
       "TSparm.ini",
       "Vault.ini",
