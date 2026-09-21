@@ -1,5 +1,5 @@
 // OCR-converted text quiz questions.
-const QUESTION_POOL = [
+const BASE_QUESTION_POOL = [
   {
     "id": "text-1",
     "kind": "text",
