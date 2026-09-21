@@ -103,7 +103,7 @@ const QUESTION_POOL = [
   {
     "id": "text-8",
     "kind": "text",
-    "prompt": "Your customer wants to store the Safes Data on Vault Drive D instead of Drive C. Which file should you edit?",
+    "prompt": "Which file should you edit?",
     "options": [
       "TSparm.ini",
       "Vault.ini",
@@ -620,6 +620,42 @@ const QUESTION_POOL = [
     ],
     "correct": [
       2
+    ]
+  },
+  {
+    "id": "self-text-1",
+    "kind": "self",
+    "prompt": "14. DRAG DROP Arrange the steps to failover to the DR CPM in the correct sequence. Solution: Validate that primary CPMs services are stopped and set to manual",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-text-2",
+    "kind": "self",
+    "prompt": "36 DRAG DROP - Arrange the steps to complete CPM Hardening for Out-of-Domain Deployment in the correct sequence.",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-text-3",
+    "kind": "self",
+    "prompt": "47. DRAG DROP - Match each component to its respective Log File location.",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
     ]
   },
   {
@@ -1287,6 +1323,2177 @@ const QUESTION_POOL = [
     ],
     "correct": [
       3
+    ]
+  },
+  {
+    "id": "self-47",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image1.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-48",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image2.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-49",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image3.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-50",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image4.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-51",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image5.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-52",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image6.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-53",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image117.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-54",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image118.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-55",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image120.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-56",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image128.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-57",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image129.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-58",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image130.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-59",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image131.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-60",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image132.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-61",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image134.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-62",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image136.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-63",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image138.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-64",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image140.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-65",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image146.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-66",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image147.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-67",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image148.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-68",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image149.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-69",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image151.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-70",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image153.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-71",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image155.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-72",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image161.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-73",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image163.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-74",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image165.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-75",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image171.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-76",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image172.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-77",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image173.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-78",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image178.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-79",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image179.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-80",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image180.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-81",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image181.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-82",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image183.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-83",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image185.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-84",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image190.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-85",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image191.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-86",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image192.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-87",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image194.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-88",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image199.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-89",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image200.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-90",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image201.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-91",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image202.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-92",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image205.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-93",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image206.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-94",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image209.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-95",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image210.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-96",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image214.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-97",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image215.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-98",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image221.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-99",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image222.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-100",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image227.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-101",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image228.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-102",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image229.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-103",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image230.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-104",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image235.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-105",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image236.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-106",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image237.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-107",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image239.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-108",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image241.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-109",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image244.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-110",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image245.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-111",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image247.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-112",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image249.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-113",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image251.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-114",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image253.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-115",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image256.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-116",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image257.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-117",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image259.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-118",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image262.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-119",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image268.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-120",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image269.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-121",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image270.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-122",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image271.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-123",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image273.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-124",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image275.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-125",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image278.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-126",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image280.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-127",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image285.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-128",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image286.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-129",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image287.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-130",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image288.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-131",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image291.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-132",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image292.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-133",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image295.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-134",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image297.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-135",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image299.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-136",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image301.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-137",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image306.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-138",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image307.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-139",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image308.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-140",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image309.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-141",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image312.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-142",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image313.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-143",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image314.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-144",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image322.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-145",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image325.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-146",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image326.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-147",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image327.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-148",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image329.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-149",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image330.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-150",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image331.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-151",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image333.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-152",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image334.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-153",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image336.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-154",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image338.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-155",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image341.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-156",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image342.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-157",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image343.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-158",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image344.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-159",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image345.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-160",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image346.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-161",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image347.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-162",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image348.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-163",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image349.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-164",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image350.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-165",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image351.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-166",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image352.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-167",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image353.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-168",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image354.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-169",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image355.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-170",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image356.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-171",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image357.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-172",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image358.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-173",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image359.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-174",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image360.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-175",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image364.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-176",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image365.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-177",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image366.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-178",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image367.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-179",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image368.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-180",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image370.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-181",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image371.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-182",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image372.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-183",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image373.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-184",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image374.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-185",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image375.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-186",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image376.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-187",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image377.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-188",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image378.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-189",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image381.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-190",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image382.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-191",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image383.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-192",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image385.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-193",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image386.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-194",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image391.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-195",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image394.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-196",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image398.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-197",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image403.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-198",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image406.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-199",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image408.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-200",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image412.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-201",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image413.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-202",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image419.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-203",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image420.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-204",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image426.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-205",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image427.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-206",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image428.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-207",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image429.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-208",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image433.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-209",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image438.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-210",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image439.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-211",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image442.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-212",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image443.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "self-213",
+    "kind": "self",
+    "prompt": "Answer or complete this source item, then mark your own result.",
+    "image": "assets/image446.png",
+    "options": [
+      "I answered correctly",
+      "I need to review this item"
+    ],
+    "correct": [
+      1
     ]
   }
 ];
