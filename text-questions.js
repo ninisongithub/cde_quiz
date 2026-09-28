@@ -2385,7 +2385,7 @@ const BASE_QUESTION_POOL = [
       "The user is not a member of the Auditors group."
     ],
     "correct": [
-      1
+      4
     ],
     "sourceImage": "assets/image273.png",
     "selectionCount": null,
